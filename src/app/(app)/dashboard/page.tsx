@@ -114,7 +114,7 @@ function UserDashboard() {
         variant: 'destructive',
       });
     }
-  };
+  }; 
 
   if (!session || !session.user) {
     return <div></div>;
